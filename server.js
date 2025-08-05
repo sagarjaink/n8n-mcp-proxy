@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Your n8n-mcp server details
 const N8N_MCP_URL = 'https://n8n-mcp-454l.onrender.com';
-const N8N_MCP_TOKEN = process.env.N8N_MCP_TOKEN;
+const N8N_MCP_TOKEN = 'BoZ6XXBZgy1fuGcmcUesdrPDPHjFdhmunNOEGGE8eAm-rnPTsWyM2Noka93DKJKj';
 
 // Health check
 app.get('/health', (req, res) => {
